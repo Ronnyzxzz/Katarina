@@ -1,0 +1,295 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;1,600&display=swap');
+@import url(//db.onlinewebfonts.com/c/12420e8c141ca7c3dff41de2d59df13e?family=BeaufortforLOL-Bold);
+@font-face {font-family: "BeaufortforLOL-Bold"; src: url("//db.onlinewebfonts.com/t/12420e8c141ca7c3dff41de2d59df13e.eot"); src: url("//db.onlinewebfonts.com/t/12420e8c141ca7c3dff41de2d59df13e.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/12420e8c141ca7c3dff41de2d59df13e.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/12420e8c141ca7c3dff41de2d59df13e.woff") format("woff"), url("//db.onlinewebfonts.com/t/12420e8c141ca7c3dff41de2d59df13e.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/12420e8c141ca7c3dff41de2d59df13e.svg#BeaufortforLOL-Bold") format("svg"); }
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300&family=Montserrat:ital,wght@0,100;0,400;1,600&display=swap');
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+header {
+
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color:#700E0A;
+    
+}
+
+header a{
+    margin-left: 75px;
+    text-decoration: none;
+    padding:25.5px 0px 25.5px 0px;
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    width: 150px;
+    
+
+    
+    
+    
+    
+    
+}
+header a:hover{
+    background-color: #b3433f;
+    
+    font-size:18px;
+    
+    color:#ff1717;
+    transition: 2s;
+    
+    
+    
+    
+    
+}
+nav{
+    display: flex;
+    gap:0px 150px;
+    margin-right: 75px;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.img {
+
+    background-image: url("https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Katarina_29.jpg");
+    min-width: 63%;
+    min-height: 750px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    border-bottom:5px solid #ff0a02 ;
+    flex-direction: column-reverse;
+    
+}
+
+.l {
+
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.753);
+    min-width: 100%;
+    padding: 10px 0px;
+    font-size: 30px;
+    font-family: "BeaufortforLOL-Bold";
+    font-weight: 400;
+    text-align: center;
+    letter-spacing:-0px;
+
+}
+
+.k {
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.753);
+    min-width: 100%;
+    
+    font-size: 55px;
+    font-family: "BeaufortforLOL-Bold";
+    font-weight: 400;
+    text-align: center;
+    letter-spacing:10px;
+    
+}
+    
+
+
+main {
+    display: flex;
+}
+
+main section{
+    min-height: 750px;
+    max-width: 50%  ;
+    background-color: rgba(0, 9, 19, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:white;
+    gap: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    border-bottom:5px solid #ff0a02 ;
+}
+
+.info {
+    margin: -10px 25px;
+    padding: 6px 6px;
+    border-radius: 15px;
+}
+
+.kat {
+    margin-top:25px;
+}
+
+
+
+.habilidades {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.box, .box1, .box2,.box3,.box4 {
+
+    margin: 10px 10px;
+    border: 3px solid;
+    border-image: linear-gradient(to top, #eb2626 0%, #610909 100%) 1;
+    text-align: center;
+    padding: 5px 2px;
+    width: 25%;
+    background-color: rgba(253, 0, 0, 0.26);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.boxes p{
+    white-space: nowrap;
+
+    
+}
+ .boxes img {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 1px 3px 5px #000;
+    border: 2px solid;
+    border-image: linear-gradient(to bottom, #eb2626 0%, #610909 100%) 1;
+    transition: 2s;
+}
+
+.box:hover, .box1:hover, .box2:hover,.box3:hover,.box4:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+footer img {
+    margin:0px 10px;
+    width: 25px;
+    
+}
+
+.tests{
+    display: flex;
+    align-items: center;
+    
+}
+
+footer{
+    background-color: #700E0A;
+    height: 69px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+footer a, footer p {
+    color: #ffffff;
+    font-size: 20px;
+    padding: 0px 30px;
+    font-family: 'Almarai', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+    
+
+
+   header {
+    display: flex;
+    flex-direction: column;
+    
+   }
+
+   .logo {
+        
+        width: 100%;
+        margin-left: 0px;
+        
+   }
+
+   nav {
+        all:unset;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-content: center;
+   }
+
+   header a:hover{
+    background-color: #b3433f;
+     transition:0s;
+     color:#fff;
+   }
+
+   nav a{
+    
+    background-color: #690e0e;
+    width: 100%;
+    margin-left:0px;
+   }
+
+   main {
+    
+    display: flex;
+    flex-direction: column;
+    
+    
+   }
+
+   .img{
+    width: 100%;
+    height: 100%;
+
+   }
+
+   
+
+    .section1{
+        min-width: 100%;
+        justify-content: center;
+        align-content: center;
+        
+    }
+
+    footer{
+        display: flex;
+        flex-wrap: wrap;
+        height: 15%;
+        
+
+       }
+
+       footer p, footer a{
+        
+        margin: 15px 5px;
+       }
+
+       footer p {
+            
+       }
+
+    .info {
+        font-size: 18px;
+    }
+}
